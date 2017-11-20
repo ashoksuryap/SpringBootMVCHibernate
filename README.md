@@ -2,6 +2,8 @@
 
 To enable H2 console add spring.h2.console.enabled=true in application properties file
 
+Reference: https://medium.com/@harittweets/how-to-connect-to-h2-database-during-development-testing-using-spring-boot-44bbb287570
+
 http://localhost:8080/h2-console/login.jsp
 
 Driver Class:org.h2.Driver
