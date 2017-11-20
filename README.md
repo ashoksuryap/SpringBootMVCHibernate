@@ -32,3 +32,4 @@ private EmployeeRepository employeeRepository;
     }
 }
 ```
+Thymeleaf : template will be in resource/templates folder with html extension. ex:- employees.html
