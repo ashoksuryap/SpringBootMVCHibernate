@@ -25,7 +25,8 @@ private EmployeeRepository employeeRepository;
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-        initData();
+        //create employee
+        employeeRepository.save(employee);
     }
 }
 ```
