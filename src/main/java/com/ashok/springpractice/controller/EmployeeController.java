@@ -19,6 +19,7 @@ public class EmployeeController {
 
     @RequestMapping("/employees")
     public String getEmployees(Model model){
+        System.out.print("Test");
         model.addAttribute("employees", employeeRepository.findAll());
         return "employees";//look for employees.html in template folder
     }
