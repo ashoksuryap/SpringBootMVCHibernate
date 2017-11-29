@@ -33,3 +33,7 @@ private EmployeeRepository employeeRepository;
 }
 ```
 Thymeleaf : template will be in resources/templates folder with html extension. ex:- employees.html
+
+Added spring boot dev tools
+
+Added lombok dependency
