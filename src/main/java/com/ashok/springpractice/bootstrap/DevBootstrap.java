@@ -34,8 +34,13 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         employees.add(employee);
 
         employee = new Employee();
-        employee.setName("Surya");
+        employee.setName("Surya1");
         employee.setCode("Code2");
+        employees.add(employee);
+
+        employee = new Employee();
+        employee.setName("Surya2");
+        employee.setCode("Code3");
         employees.add(employee);
 
         employeeRepository.save(employees);
